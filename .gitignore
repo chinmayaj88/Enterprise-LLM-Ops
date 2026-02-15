@@ -1,0 +1,33 @@
+
+# Existing exclusions
+developer-document
+.cache
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.ipynb_checkpoints
+
+# IDE files
+.vscode/
+.idea/
+
+# Large Model Files
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.h5
+*.gguf
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
